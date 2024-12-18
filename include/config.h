@@ -5,7 +5,7 @@
 //***************************************************************************************************
 //
 #ifndef CONFIG_H
-  //#define NAME "ESP32-Radio"                              // Define name of the radio, also AP SSID,
+  #define NAME "XmasRadio"                              // Define name of the radio, also AP SSID,
                                                             // also namespace in NVS.
                                                             // Default is "ESP32-Radio"
 
@@ -13,7 +13,7 @@
 
   //#define ETHERNET                                        // For wired Ethernet (WT32-ETH-01 or similar)
 
-  //#define FIXEDWIFI "SSID-11/PW12345"                     // Add a fixed SSID to the list (WiFi only)
+  //#define FIXEDWIFI "SSID123/PWD123"                     // Add a fixed SSID to the list (WiFi only)
   
   //#define ENABLEOTA                                       // OTA feature
 
@@ -27,9 +27,9 @@
                                                             // Needs platform = espressif32@3.1.0 !!!!
 
   // Define (just one) type of display.  See documentation.
-  #define BLUETFT                                         // Works also for RED TFT 128x160
+  //#define BLUETFT                                         // Works also for RED TFT 128x160
   //#define ST7789                                          // 240x240 TFT (SPI)
-  //#define OLED1306                                        // 64x128 I2C OLED SSD1306
+  #define OLED1306                                        // 64x128 I2C OLED SSD1306 - OLED_moder_PCB_bel_Heltec
   //#define OLED1309                                        // 64x128 I2C OLED SSD1309
   //#define OLED1106                                        // 64x128 I2C OLED SH1106
   //#define DUMMYTFT                                          // Dummy display

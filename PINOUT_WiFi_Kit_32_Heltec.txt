@@ -1,0 +1,35 @@
+
+OLED
+    ssd1306_128x64_i2c 
+    SDA  GPIO4
+    SCL  GPIO15
+    RST  GPIO16 - not used in FW
+
+LED
+    positive GPIO25
+
+
+
+pin_shutdownx = 25                                 # GPIO Pin number for Amplifier Shutdown
+
+pin_spi_miso = 19
+pin_spi_mosi = 23
+pin_spi_sck = 18
+
+pin_tft_scl = 15
+pin_tft_sda = 4                                   # GPIO Pin number for OLED SDA
+
+pin_vs_cs = 22                                      # GPIO Pin number for VS1053 CS
+pin_vs_dcs = 21                                     # GPIO Pin number for VS1053 DCS
+pin_vs_dreq = 5                                   # GPIO Pin number for VS1053 DREQ
+
+
+[  3522][I][main.cpp:1852] readIOprefs(): [main] 'pin_tft_scl  ' set to 15
+[  3530][I][main.cpp:1852] readIOprefs(): [main] 'pin_tft_sda  ' set to 4
+[  3538][I][main.cpp:1852] readIOprefs(): [main] 'pin_vs_cs    ' set to 22
+[  3546][I][main.cpp:1852] readIOprefs(): [main] 'pin_vs_dcs   ' set to 21
+[  3553][I][main.cpp:1852] readIOprefs(): [main] 'pin_vs_dreq  ' set to 5
+[  3561][I][main.cpp:1852] readIOprefs(): [main] 'pin_shutdownx' set to 25
+[  3568][I][main.cpp:1852] readIOprefs(): [main] 'pin_spi_sck  ' set to 18
+[  3576][I][main.cpp:1852] readIOprefs(): [main] 'pin_spi_miso ' set to 19
+[  3583][I][main.cpp:1852] readIOprefs(): [main] 'pin_spi_mosi ' set to 23
